@@ -207,3 +207,11 @@ const server = http.createServer(async (req, res) => {
 });
 
 server.listen(PORT, () => console.log(`SSA يعمل على http://localhost:${PORT}`));
+{
+  "name": "ssa-app",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": { "start": "node server.js" },
+  "engines": { "node": ">=18" }
+}
+
